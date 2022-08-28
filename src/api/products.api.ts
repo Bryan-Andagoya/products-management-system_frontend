@@ -1,4 +1,4 @@
-import { ProductModel, ProductsResponseModel } from "../models/product.model";
+import { ProductModel, ProductsResponseModel } from "../models";
 import { axiosInstance } from "./axiosInstance";
 
 export const getAllProducts = () =>
